@@ -1,0 +1,38 @@
+{
+  "name": "eslint-plugin-no-constant-expressions",
+  "version": "1.0.0",
+  "description": "Disallow use of constant expressions",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:denis-sokolov/eslint-plugin-no-constant-expressions"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "author": {
+    "name": "Denis Sokolov",
+    "email": "denis@sokolov.cc",
+    "url": "http://sokolov.cc/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denis-sokolov/eslint-plugin-no-constant-expressions/issues"
+  },
+  "homepage": "https://github.com/denis-sokolov/eslint-plugin-no-constant-expressions",
+  "devDependencies": {
+    "eslint": "^0.21.2",
+    "eslint-tester": "^0.6.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "static-eval": "^0.2.4"
+  }
+}
